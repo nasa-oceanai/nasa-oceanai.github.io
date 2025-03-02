@@ -1,1 +1,1 @@
-quarto render && cp -v references.bib _site/
+quarto render && cp -v references.bib docs/
