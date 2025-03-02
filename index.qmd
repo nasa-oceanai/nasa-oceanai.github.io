@@ -1,0 +1,6 @@
+---
+title: "Home"
+---
+
+## Mission Statement
+Brief overview of the group’s goals.

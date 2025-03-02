@@ -1,0 +1,13 @@
+---
+title: "Resources"
+---
+
+## Datasets and Tools
+AI models, datasets, and software.
+
+
+## Publications
+
+Below is a list of our publications. This section will be dynamically populated with items from the bibliography file.
+
+<script src="https://bibbase.org/show?bib=https://nasa-oceanai.github.io/pubs.bib&jsonp=1&theme=default"></script>

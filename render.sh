@@ -1,0 +1,1 @@
+quarto render && cp -v references.bib _site/
