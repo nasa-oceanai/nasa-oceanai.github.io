@@ -1,0 +1,48 @@
+project:
+  type: website
+  output-dir: _site
+  preview:
+    port: 7777
+    browser: false
+
+website:
+  title: "NASA OceanAI"
+  site-url: https://nasa-oceanai.github.io
+  navbar:
+    logo: logo.jfif
+    left:
+      - text: "Overview"
+        href: index.qmd
+      - text: "About"
+        href: about.qmd
+      - text: "Projects"
+        href: projects.qmd
+      - text: "Resources"
+        href: resources.qmd
+      - text: "Events"
+        href: events.qmd
+      - text: "News"
+        href: news.qmd
+      - text: "Community"
+        href: community.qmd
+      - text: "Contact"
+        href: contact.qmd
+    tools:
+      - icon: github
+        href: https://https://github.com/nasa-oceanaii
+        text: NASA Ocean-AI GitHub
+format:
+  html:
+    toc: true
+    theme:
+      light: [cosmo, theme.scss]
+      dark: [cosmo-dark, theme-dark.scss]
+    code-copy: true
+    code-overflow: wrap
+    css: styles.css
+    include-after-body: js.html
+    grid:
+      sidebar-width: 250px
+      body-width: 900px
+      margin-width: 300px
+bibliography: references.bib

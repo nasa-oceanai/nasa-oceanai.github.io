@@ -1,0 +1,7 @@
+---
+title: "News"
+---
+
+## Announcements
+
+Blog structure for announcements.
