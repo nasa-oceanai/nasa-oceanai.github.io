@@ -1,0 +1,128 @@
+[
+  {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Resources",
+    "section": "",
+    "text": "AI models, datasets, and software."
+  },
+  {
+    "objectID": "resources.html#datasets-and-tools",
+    "href": "resources.html#datasets-and-tools",
+    "title": "Resources",
+    "section": "",
+    "text": "AI models, datasets, and software."
+  },
+  {
+    "objectID": "resources.html#publications",
+    "href": "resources.html#publications",
+    "title": "Resources",
+    "section": "Publications",
+    "text": "Publications\nBelow is a list of our publications. This section will be dynamically populated with items from the bibliography file."
+  },
+  {
+    "objectID": "news.html",
+    "href": "news.html",
+    "title": "News",
+    "section": "",
+    "text": "Blog structure for announcements."
+  },
+  {
+    "objectID": "news.html#announcements",
+    "href": "news.html#announcements",
+    "title": "News",
+    "section": "",
+    "text": "Blog structure for announcements."
+  },
+  {
+    "objectID": "events.html",
+    "href": "events.html",
+    "title": "Events",
+    "section": "",
+    "text": "Workshops, seminars, and archives."
+  },
+  {
+    "objectID": "events.html#upcoming-and-past-events",
+    "href": "events.html#upcoming-and-past-events",
+    "title": "Events",
+    "section": "",
+    "text": "Workshops, seminars, and archives."
+  },
+  {
+    "objectID": "community.html",
+    "href": "community.html",
+    "title": "Community",
+    "section": "",
+    "text": "Forums, mailing list, and volunteer opportunities.\nWe can open a discussions tab for this repo and mention it on this page."
+  },
+  {
+    "objectID": "community.html#discussion-engagement",
+    "href": "community.html#discussion-engagement",
+    "title": "Community",
+    "section": "",
+    "text": "Forums, mailing list, and volunteer opportunities.\nWe can open a discussions tab for this repo and mention it on this page."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Overview, mission, team bios, and collaborations."
+  },
+  {
+    "objectID": "about.html#who-we-are",
+    "href": "about.html#who-we-are",
+    "title": "About",
+    "section": "",
+    "text": "Overview, mission, team bios, and collaborations."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "Links for contact."
+  },
+  {
+    "objectID": "contact.html#contact",
+    "href": "contact.html#contact",
+    "title": "Contact",
+    "section": "",
+    "text": "Links for contact."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home",
+    "section": "",
+    "text": "Brief overview of the group’s goals."
+  },
+  {
+    "objectID": "index.html#mission-statement",
+    "href": "index.html#mission-statement",
+    "title": "Home",
+    "section": "",
+    "text": "Brief overview of the group’s goals."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Summaries, objectives, and outcomes."
+  },
+  {
+    "objectID": "projects.html#current-and-past-projects",
+    "href": "projects.html#current-and-past-projects",
+    "title": "Projects",
+    "section": "",
+    "text": "Summaries, objectives, and outcomes."
+  },
+  {
+    "objectID": "projects.html#get-involved",
+    "href": "projects.html#get-involved",
+    "title": "Projects",
+    "section": "Get Involved",
+    "text": "Get Involved\nGuidelines for project collaboration."
+  }
+]
