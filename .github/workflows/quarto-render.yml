@@ -3,7 +3,7 @@ name: Quarto Render and Deploy
 on:
   push:
     branches:
-      - main  # Change this if you use a different branch
+      - main  # Adjust if using a different branch
   pull_request:
     branches:
       - main
@@ -15,6 +15,8 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
+        with:
+          persist-credentials: false  # Ensures clean push with token
 
       - name: Install Python
         uses: actions/setup-python@v4
@@ -31,6 +33,16 @@ jobs:
 
       - name: Copy references.bib to docs/
         run: cp references.bib docs/
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/
+          git commit -m "Auto-update rendered Quarto site"
+          git push origin main  # Adjust if using a different branch
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
