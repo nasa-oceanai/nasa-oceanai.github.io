@@ -25,11 +25,9 @@ website:
         href: events.qmd
       - text: "Community"
         href: community.qmd
-      - text: "Contact"
-        href: contact.qmd
     tools:
       - icon: github
-        href: https://https://github.com/nasa-oceanaii
+        href: https://github.com/nasa-oceanai
         text: NASA Ocean-AI GitHub
 format:
   html:
