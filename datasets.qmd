@@ -2,8 +2,6 @@
 title: "Datasets"
 ---
 
-## Datasets
-
 1. **ECCO 1-Degree Reanalysis**  
    - *Description:* An oceanography equivalent to ERA5, providing a comprehensive reanalysis dataset for global ocean state estimation.  
    - *Data Size:* [Size TBD] GB  

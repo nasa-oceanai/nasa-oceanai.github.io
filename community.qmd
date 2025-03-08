@@ -4,6 +4,7 @@ title: "Community"
 
 ## Discussion & Engagement
 
-Forums, mailing list, and volunteer opportunities.
+We encourage community participation and discussions!
 
-We can open a discussions tab for this repo and mention it on this page.
+You can join the conversation, ask questions, and contribute ideas on our **[GitHub Discussions](https://github.com/nasa-oceanai/nasa-oceanai.github.io/discussions)** page.
+
