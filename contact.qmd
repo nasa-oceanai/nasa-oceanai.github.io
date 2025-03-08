@@ -2,5 +2,4 @@
 title: "Contact"
 ---
 
-## Contact
-Links for contact.
+(under constuction)
