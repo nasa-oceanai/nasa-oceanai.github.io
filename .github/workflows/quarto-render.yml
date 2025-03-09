@@ -3,10 +3,10 @@ name: Quarto Render and Deploy
 on:
   push:
     branches:
-      - main  # Adjust if using a different branch
+      - main  # Deploy when changes are pushed to main
   pull_request:
     branches:
-      - main
+      - main  # Run rendering and commit to PR branches
 
 jobs:
   build-deploy:
@@ -16,17 +16,12 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
         with:
-          persist-credentials: false  # Ensures clean push with token
+          persist-credentials: true  # Allows pushing changes back
 
-      - name: Install Python
-        uses: actions/setup-python@v4
+      - name: Setup Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
         with:
-          python-version: '3.10'
-
-      - name: Install Quarto via Python
-        run: |
-          pip install quarto-cli
-          quarto --version  # Verify installation
+          version: "latest"
 
       - name: Render Quarto Project
         run: quarto render
@@ -34,17 +29,30 @@ jobs:
       - name: Copy references.bib to docs/
         run: cp references.bib docs/
 
-      - name: Commit and Push Changes
+      - name: Commit and Push Changes (PR Branches)
+        if: github.event_name == 'pull_request'
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add docs/
-          git commit -m "Auto-update rendered Quarto site"
-          git push origin main  # Adjust if using a different branch
+          git commit -m "Auto-update rendered Quarto site (PR)" || echo "No changes to commit"
+          git push origin HEAD:${{ github.head_ref }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit and Push Changes (Main Branch)
+        if: github.event_name == 'push'
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/
+          git commit -m "Auto-update rendered Quarto site" || echo "No changes to commit"
+          git push origin main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Deploy to GitHub Pages
+        if: github.event_name == 'push'
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
