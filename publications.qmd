@@ -1,12 +1,6 @@
 ---
-title: "Resources"
+title: "Publications"
 ---
-
-## Datasets and Tools
-AI models, datasets, and software.
-
-
-## Publications
 
 Below is a list of our publications. This section will be dynamically populated with items from the bibliography file.
 

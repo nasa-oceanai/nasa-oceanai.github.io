@@ -1,6 +1,0 @@
----
-title: "About"
----
-
-## Who We Are
-Overview, mission, team bios, and collaborations.

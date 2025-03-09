@@ -1,0 +1,68 @@
+---
+title: "Datasets"
+---
+
+1. **ECCO 1-Degree Reanalysis**  
+   - *Description:* An oceanography equivalent to ERA5, providing a comprehensive reanalysis dataset for global ocean state estimation.  
+   - *Data Size:* [Size TBD] GB  
+   - *Access:* Available through NASA PO.DAAC  
+
+1. **ECCO-LLC4320**  
+   - *Description:* A forced ocean and sea ice model at 1/48th-degree resolution, incorporating tidal forcing with hourly output.  
+   - *Data Size:* 2 PB  
+   - *Access:* Hosted on NASA Ames High-Performance Computing (HPC)  
+
+1. **ECCO-LLC2160**  
+   - *Description:* A forced ocean and sea ice model at 1/24th-degree resolution, including tidal forcing and hourly output.  
+   - *Data Size:* [Size TBD]  
+   - *Access:* Hosted on NASA Ames HPC  
+
+1. **Infrared Sea Surface Temperature (SST)**  
+   - *Description:* High-spatial-resolution (~1 km) dataset derived from infrared sensors, impacted by cloud cover.  
+   - *Data Size:* [Size TBD]  
+   - *Access:* Available at NASA Ames  
+
+1. **Satellite Altimetry (Multi-Mission)**  
+   - *Description:* One-dimensional sea surface height measurements from multiple satellites (e.g., TOPEX/Poseidon, Jason series) across various orbits.  
+   - *Resolution:* 6 km footprint, 70 km along-track feature resolution.  
+   - *Data Size:* Relatively small dataset  
+   - *Access:* Available through NASA PO.DAAC  
+
+1. **Ka-Band Interferometry Sea Surface Height (SWOT)**  
+   - *Description:* Two-dimensional measurements from the Surface Water and Ocean Topography (SWOT) mission, featuring a 120 km-wide swath with a 20 km nadir gap; offers 2 km and 250 m postings. High spatial resolution and precision, but poor temporal resolution (21-day repeat cycle). Requires significant machine learning development.  
+   - *Data Size:* [Size TBD]  
+   - *Access:* Available through NASA PO.DAAC  
+
+1. **Synthetic Aperture Radar (SAR) – Sentinel-1A/B**  
+   - *Description:* Ultra-high spatial resolution (tens of meters) data from Sentinel-1A/B, enabling ocean surface feature detection, atmospheric boundary layer analysis, and sea ice monitoring.  
+   - *Data Size:* [Size TBD]  
+   - *Access:* Available through NASA PO.DAAC and ESA Copernicus Open Access Hub  
+
+1. **CYGNSS Ocean Surface Wind Speed**  
+   - *Description:* Cyclone Global Navigation Satellite System (CYGNSS) data providing near-surface wind speeds over the ocean, with high temporal resolution in tropical regions.  
+   - *Resolution:* ~25 km spatial resolution, daily coverage.  
+   - *Data Size:* [Size TBD]  
+   - *Access:* Available through NASA PO.DAAC  
+
+1. **GHRSST Level-4 MUR Sea Surface Temperature**  
+   - *Description:* Multi-scale Ultra-high Resolution (MUR) dataset combining data from multiple satellite sensors to produce a global foundation SST at 0.01-degree resolution.  
+   - *Data Size:* [Size TBD]  
+   - *Access:* Available through NASA PO.DAAC  
+
+1. **Aquarius Sea Surface Salinity**  
+    - *Description:* Global sea surface salinity measurements from the Aquarius/SAC-D satellite, key for studying ocean circulation and the water cycle.  
+    - *Resolution:* ~150 km spatial resolution, weekly/monthly composites.  
+    - *Data Size:* [Size TBD]  
+    - *Access:* Available through NASA PO.DAAC  
+
+1. **SMAP Sea Surface Salinity**  
+    - *Description:* Soil Moisture Active Passive (SMAP) mission data adapted for ocean salinity, offering high sensitivity to salinity variations with global coverage.  
+    - *Resolution:* ~40 km spatial resolution, 8-day running mean.  
+    - *Data Size:* [Size TBD]  
+    - *Access:* Available through NASA PO.DAAC  
+
+1. **PACE Ocean Color Data**  
+    - *Description:* Data from the Plankton, Aerosol, Cloud, ocean Ecosystem (PACE) mission, launched in February 2024, providing hyperspectral ocean color measurements for phytoplankton, water quality, and carbon cycle studies.  
+    - *Resolution:* ~1 km spatial resolution, daily coverage.  
+    - *Data Size:* [Size TBD]  
+    - *Access:* Available through NASA OB.DAAC (Ocean Biology DAAC)  

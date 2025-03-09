@@ -1,35 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://nasa-oceanai.github.io/resources.html</loc>
-    <lastmod>2025-03-02T19:34:41.772Z</lastmod>
+    <loc>https://nasa-oceanai.github.io/tools.html</loc>
+    <lastmod>2025-03-08T19:38:41.873Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nasa-oceanai.github.io/publications.html</loc>
+    <lastmod>2025-03-08T19:38:41.842Z</lastmod>
   </url>
   <url>
     <loc>https://nasa-oceanai.github.io/news.html</loc>
-    <lastmod>2025-03-02T19:34:29.869Z</lastmod>
+    <lastmod>2025-03-08T19:38:41.827Z</lastmod>
   </url>
   <url>
     <loc>https://nasa-oceanai.github.io/events.html</loc>
-    <lastmod>2025-03-02T19:34:29.839Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nasa-oceanai.github.io/community.html</loc>
-    <lastmod>2025-03-02T19:34:29.306Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nasa-oceanai.github.io/about.html</loc>
-    <lastmod>2025-03-02T19:34:29.300Z</lastmod>
+    <lastmod>2025-03-08T19:38:41.686Z</lastmod>
   </url>
   <url>
     <loc>https://nasa-oceanai.github.io/contact.html</loc>
-    <lastmod>2025-03-02T19:34:29.315Z</lastmod>
+    <lastmod>2025-03-08T19:38:41.499Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nasa-oceanai.github.io/community.html</loc>
+    <lastmod>2025-03-08T19:50:34.323Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nasa-oceanai.github.io/datasets.html</loc>
+    <lastmod>2025-03-08T19:44:57.213Z</lastmod>
   </url>
   <url>
     <loc>https://nasa-oceanai.github.io/index.html</loc>
-    <lastmod>2025-03-02T19:34:29.845Z</lastmod>
+    <lastmod>2025-03-08T19:38:41.686Z</lastmod>
   </url>
   <url>
     <loc>https://nasa-oceanai.github.io/projects.html</loc>
-    <lastmod>2025-03-02T19:34:29.876Z</lastmod>
+    <lastmod>2025-03-08T19:38:41.842Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nasa-oceanai.github.io/teams.html</loc>
+    <lastmod>2025-03-08T19:38:41.858Z</lastmod>
   </url>
 </urlset>

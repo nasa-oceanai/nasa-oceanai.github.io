@@ -2,8 +2,27 @@
 title: "Projects"
 ---
 
-## Current and Past Projects
-Summaries, objectives, and outcomes.
+## Generative AI for Satellite Data Reconstruction
+
+**The Problem**
+
+Space-borne remote sensing enables continuous global observation, yet all satellite systems encounter sampling limitations to varying degrees. In satellite oceanography, it is standard practice to employ physics-based methodologies to address gaps in measurement data. Traditional approaches include simple optimal interpolation and more advanced data assimilation techniques that integrate primitive-equation numerical models. However, these methods have drawbacks: optimal interpolation relies on assumed a priori correlation functions, limiting its accuracy, while data assimilation is computationally intensive. AI-driven methodologies offer a promising solution, overcoming both the restrictive assumptions of interpolation and the computational burden of assimilation.
+Example Projects
+
+Below is an incomplete list of projects undertaken by our working group teams to explore and apply generative AI for reconstructing satellite data:
+
+### 1. MAESSTRO: Masked Autoencoders for Sea Surface Temperature Reconstruction under Occlusion
+
+![](media/maesstro.png){width=60%}
+
+### 2. NeurOST (Neural Ocean Surface Topography): Deep Learning Improves Global Satellite Observations of Ocean Eddy Dynamics
+
+![](media/neurost.png){width=60%}
+
+### 3. Machine learning-driven super-resolution techniques to enhance the resolution of oceanographic satellite imagery
+
+![](media/super-resolution.png){width=70%}
+
 
 ## Get Involved
 Guidelines for project collaboration.

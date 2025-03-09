@@ -6,30 +6,28 @@ project:
     browser: false
 
 website:
-  title: "NASA OceanAI"
+  title: "NASA Ocean AI Working Group"
   site-url: https://nasa-oceanai.github.io
   navbar:
     logo: logo.jfif
     left:
       - text: "Overview"
         href: index.qmd
-      - text: "About"
-        href: about.qmd
+      - text: "Teams"
+        href: teams.qmd
       - text: "Projects"
         href: projects.qmd
-      - text: "Resources"
-        href: resources.qmd
+      - text: "Datasets"
+        href: datasets.qmd
+      - text: "Tools"
+        href: tools.qmd  
       - text: "Events"
         href: events.qmd
-      - text: "News"
-        href: news.qmd
       - text: "Community"
         href: community.qmd
-      - text: "Contact"
-        href: contact.qmd
     tools:
       - icon: github
-        href: https://https://github.com/nasa-oceanaii
+        href: https://github.com/nasa-oceanai
         text: NASA Ocean-AI GitHub
 format:
   html:

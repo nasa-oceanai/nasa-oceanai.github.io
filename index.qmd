@@ -1,6 +1,48 @@
 ---
-title: "Home"
+title: "NASA Ocean AI Working Group"
 ---
 
 ## Mission Statement
-Brief overview of the group’s goals.
+
+We are a collective of teams funded by NASA programs and friends and colleagues who are interested in advancing NASA’s oceanography missions, sciences and applications. 
+
+Our mission is to enhance and amplify NASA oceanography efforts by leveraging modern data science, including machine learning and artificial intelligence. 
+
+This working group serves as a conduit to bridge disciplinary gaps, foster collaboration on existing projects, and initiate new endeavors.
+
+## Working group objectives
+
+* Advance the development of state-of-the-art machine learning tools designed for the analysis and synthesis of NASA's oceanography mission data.
+* Transform ocean data analysis to address the big data challenges of modern remote sensing.
+* Facilitate integration of multi-mission datasets, enabling real-time applications and supporting in-depth scientific exploration of causal relationships and future mission formulation.
+
+## Approach
+
+![](media/approach.png){width=60%}
+
+* (A) Develop high-quality training datasets leveraging NASA simulations and observational data.
+* (B) Construct, train, and fine-tune foundation models to advance satellite data analysis capabilities.
+* (C) Deliver open-source toolkits to empower the next generation of satellite data exploration, enabling multi-mission data synthesis, causal investigations and scientific  applications, and future mission formulation.
+* (D) Improve conventional models and enable forecasting of ocean conditions to drive societal benefits and informed decision-making.
+
+## Implementation
+
+![](media/three_level_implementation.png){width=60%}
+
+1. High-quality training data is crucial for building robust foundation models.
+   1. Satellite image thumbnails (SST, SSH, chlorophyll, hyperspectral)
+   2. high-resolution numerical simulations
+   3. Reanalysis products
+
+2. Task-specific foundation models
+   1. Gap-filling
+   2. Denoising
+   3. Bias-removal
+   4. Classification, segmentation, feature identification/extraction
+
+3. General foundation models that use multi-variables (satellites) and constrained by ocean physics
+   1. Satellite data assimilation
+   2. Study ocean dynamics
+   3. Assist future mission formulation and development
+   4. forecast
+
